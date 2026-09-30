@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RYVANO — Sports Design & Creative</title>
+<meta name="description" content="RYVANO creates premium sports logos, jersey designs, social media graphics and visual identities.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#070809;--card:#111315;--text:#f5f5f5;--muted:#a5a7aa;--accent:#d4ff00}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #222}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:3px}
+.brand-mark{font-size:27px}
+.brand small{display:block;color:#888;font-size:8px;letter-spacing:2px}
+.links{display:flex;gap:28px;font-size:14px;color:#ddd}
+.btn{display:inline-block;background:var(--accent);color:#080909;padding:13px 20px;border-radius:8px;font-weight:800}
+.hero{min-height:620px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:50px}
+.kicker{color:var(--accent);letter-spacing:4px;font-size:12px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(48px,7vw,86px);line-height:.92;letter-spacing:-4px;margin-bottom:24px}
+.hero p{color:var(--muted);max-width:520px;font-size:17px;margin-bottom:30px}
+.hero-art{height:460px;border-radius:24px;background:radial-gradient(circle at 70% 30%,#3a4246,transparent 32%),linear-gradient(145deg,#171b1e,#090a0b 70%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.hero-art:after{content:"RYVANO";position:absolute;font-size:100px;font-weight:900;letter-spacing:5px;color:#fff1;transform:rotate(-12deg)}
+.hero-r{font-size:210px;font-weight:900;z-index:1}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #25282a;background:#0d0f10}
+.strip div{padding:22px;border-right:1px solid #25282a}
+.strip strong{display:block;margin-bottom:5px}
+.strip span{color:var(--muted);font-size:12px}
+section{padding:95px 0}
+.section-title{font-size:42px;letter-spacing:-2px;margin-bottom:12px}
+.section-sub{color:var(--muted);max-width:600px;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:var(--card);border:1px solid #242628;border-radius:16px;padding:28px;min-height:210px}
+.icon{font-size:30px;margin-bottom:28px;color:var(--accent)}
+.card h3{margin-bottom:8px}.card p{color:var(--muted);font-size:14px}
+.work{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.work div{height:250px;border-radius:16px;background:linear-gradient(135deg,#252a2d,#0e1011);display:flex;align-items:end;padding:22px;font-weight:800}
+.contact{background:var(--accent);color:#080909;border-radius:24px;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.contact p{max-width:620px;margin-top:10px}
+.contact .btn{background:#080909;color:#fff}
+footer{padding:35px 0;color:#777;border-top:1px solid #222;display:flex;justify-content:space-between}
+@media(max-width:800px){
+ .links{display:none}.hero{grid-template-columns:1fr;padding:65px 0}.hero-art{height:330px}.strip,.grid{grid-template-columns:1fr 1fr}.work{grid-template-columns:1fr}.contact{display:block}footer{display:block}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <a class="brand" href="#"><span class="brand-mark">R</span><span>RYVANO<small>SPORTS DESIGN & CREATIVE</small></span></a>
+  <div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+  <a class="btn" href="#contact">Get Started</a>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="kicker">SPORTS DESIGN & CREATIVE</div>
+    <h1>MORE THAN<br>JUST DESIGN.</h1>
+    <p>We turn passion for sport into powerful visual identities — from team logos and custom jerseys to social media graphics and complete brand systems.</p>
+    <a class="btn" href="#work">Explore Our Work →</a>
+  </div>
+  <div class="hero-art"><div class="hero-r">R</div></div>
+</header>
+
+<div class="strip">
+  <div><strong>TEAM LOGOS</strong><span>Unique & professional</span></div>
+  <div><strong>JERSEY DESIGN</strong><span>Modern & custom</span></div>
+  <div><strong>SOCIAL MEDIA</strong><span>Sports content & graphics</span></div>
+  <div><strong>BRAND IDENTITY</strong><span>Build your visual power</span></div>
+</div>
+
+<section id="about">
+  <div class="kicker">ABOUT RYVANO</div>
+  <h2 class="section-title">Designing the spirit of sport.</h2>
+  <p class="section-sub">RYVANO is a sports-focused creative studio built for clubs, athletes, teams and brands that want a strong visual presence.</p>
+</section>
+
+<section id="services">
+  <div class="kicker">OUR SERVICES</div>
+  <h2 class="section-title">What we do.</h2>
+  <div class="grid">
+    <div class="card"><div class="icon">✦</div><h3>Logo Design</h3><p>Professional identities for teams, clubs and sports brands.</p></div>
+    <div class="card"><div class="icon">▣</div><h3>Jersey Design</h3><p>Custom kits with modern, distinctive visual systems.</p></div>
+    <div class="card"><div class="icon">◉</div><h3>Social Media</h3><p>Engaging matchday, player and promotional graphics.</p></div>
+    <div class="card"><div class="icon">◆</div><h3>Brand Identity</h3><p>Complete visual identity for your sports business.</p></div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="kicker">OUR WORK</div>
+  <h2 class="section-title">Featured projects.</h2>
+  <div class="work">
+    <div>TEAM IDENTITY</div><div>JERSEY CONCEPT</div><div>SPORTS CAMPAIGN</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div><h2>Ready to build your sports identity?</h2><p>Tell us what you need and let's create something powerful.</p></div>
+    <a class="btn" href="mailto:hello@ryvano.com">Contact RYVANO →</a>
+  </div>
+</section>
+
+<footer><div>© 2026 RYVANO</div><div>SPORTS DESIGN & CREATIVE</div></footer>
+</div>
+</body>
+</html>
